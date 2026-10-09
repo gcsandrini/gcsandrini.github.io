@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Sandrini | Ciência da Computação</title>
+    <link rel="stylesheet" href="estilo/index.css">
+</head>
+
+<body>
+    <div class="navegar">
+        <a href="#cabeçalho" class="links_navegaçao">Início</a>
+        <a href="#sobre_mim" class="links_navegaçao">Sobre</a>
+        <a href="#habilidades" class="links_navegaçao">Habilidades</a>
+        <a href="#projetos" class="links_navegaçao">Projetos</a>
+        <a href="#contato" class="links_navegaçao">Contato</a>
+    </div>
+    <div class="container">
+        <div id="cabeçalho" class="cabeçalho">
+            <div class="foto_perfil">
+                <img id="imagem_perfil" src="./imagens/imagemperfil.png">
+            </div>
+            <div class="texto_cabeçalho">
+                <p>Olá! Eu sou</p>
+                <h1 id="nome">Gabriel Sandrini</h1>
+                <h2 id="subtitulo">Estudante de Ciência da Computação</h2>
+                <p id="texto_descriçao">Apaixonado por tecnologia, desenvolvimento de software e solução de
+                    problemas. Buscando sempre aprender algo novo e transformar ideias em projetos</p>
+                <a href="curriculo_gabriel_sandrini.pdf" download class="botao">Baixar currículo</a>
+            </div>
+        </div>
+        <div id="sobre_mim" class="sobre_mim">
+            <div class="bloco_txt_sobre_mim">
+                <h1 id="titulo_sobre_mim">Sobre mim</h1>
+                <h2 id="texto_sobre_mim">Sou estudante de Ciência da Computação e me interesso por desenvolvimento web,
+                    automação e inteligência artificial. O que mais me atrai na área é a lógica e a possibilidade de
+                    criar ferramentas que ajudem outras pessoas. Aprendo colocando a mão na massa: cada projeto é uma
+                    chance de estudar algo novo.</h2>
+            </div>
+            <div class="bloco_cards">
+                <div class="card">
+                    <h1 class="titulo_card">Formação</h1>
+                    <h2 class="txt_card">Ciência da computação <br> 2 período <br> PUCPR</h2>
+                </div>
+                <div class="card">
+                    <h1 class="titulo_card">Localização</h1>
+                    <h2 class="txt_card">Curitiba - PR <br> Brasil</h2>
+                </div>
+            </div>
+        </div>
+        <div id="habilidades" class="habilidades">
+            <h1 id="titulo_hb">Habilidades</h1>
+            <div class="competencias">
+                <p>Python</p>
+                <p>C</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>SQL</p>
+            </div>
+        </div>
+        <div id="projetos" class="projetos">
+            <h1 id="titulo_projeto">Projetos</h1>
+            <div class="card_projetos">
+                <div class="dentro_card_projetos">
+                    <img class="img_projeto img_contain" src="./imagens/imagem_capa_reprodutor_de_musica.png">
+                    <h1 class="titulo_card_projeto">Reprodutor de Música</h1>
+                    <h2 class="desc_card_projeto">Player de música com interface gráfica desenvolvido em Python. Tem
+                        controles completos (play/pause, próxima/anterior, volume e barra de progresso interativa),
+                        playlists personalizadas e dados salvos por usuário, além de baixar músicas automaticamente a
+                        partir de links do YouTube.</h2>
+                    <div class="linguagens_usadas">
+                        <p>Python</p>
+                        <p>CustomTkinter</p>
+                        <p>Pygame</p>
+                        <p>yt-dlp</p>
+                    </div>
+                    <a class="link_projetos" href="https://github.com/gcsandrini/rep_mus" target="_blank"
+                        rel="noopener noreferrer">Ver código
+                        no GitHub</a>
+                </div>
+                <div class="dentro_card_projetos">
+                    <img class="img_projeto" src="./imagens/portifolio.png">
+                    <h1 class="titulo_card_projeto">Portfólio pessoal</h1>
+                    <h2 class="desc_card_projeto">Site responsivo que reúne minha formação, habilidades, projetos e
+                        contatos. Desenvolvido do zero com HTML e CSS, com layout que se adapta a computadores e
+                        celulares e currículo disponível para download.</h2>
+                    <div class="linguagens_usadas">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="dentro_card_projetos">
+                    <img class="img_projeto" src="./imagens/tabuleiro_batalha_naval.png">
+                    <h1 class="titulo_card_projeto">Batalha Naval</h1>
+                    <h2 class="desc_card_projeto">Jogo de batalha naval em Python, executado no terminal, em que o
+                        jogador enfrenta o computador em tabuleiros 10x10. O projeto inclui posicionamento manual e
+                        aleatório das embarcações, validação das entradas e controle de vitória e derrota. Desenvolvido
+                        em grupo para a disciplina de Raciocínio Algorítmico da PUCPR.</h2>
+                    <div class="linguagens_usadas">
+                        <p>Python</p>
+                    </div>
+                    <a href="https://github.com/ljoaopedroo/Batalha-Naval" class="link_projetos" target="_blank"
+                        rel="noopener noreferrer">Ver código no GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div id="contato" class="contato">
+            <h1 id="titulo_ctt">Contato</h1>
+            <h2 id="subtitulo_ctt">Vamos conversar? Fique à vontade para me mandar uma mensagem!</h2>
+            <p id="email">gabricsandrini@gmail.com</p>
+            <a id="linkedin" href="https://www.linkedin.com/in/gabriel-sandrini-801196402/">Linkedin</a>
+            <a id="github" href="https://github.com/gcsandrini">Github</a>
+            <p id="loc">Curitiba - PR, Brasil</p>
+        </div>
+    </div>
+    <div class="pe">
+        <p id="txt_final">© 2026 Gabriel Sandrini. Todos os direitos reservados</p>
+    </div>
+</body>
+
+</html>
